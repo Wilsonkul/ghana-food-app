@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Load your trained model
-model = tf.keras.models.load_model("ghana_food_model.h5")
+model = tf.keras.models.load_model("ghana_food_model.keras")
 
 # Your class names from training
 class_names = ['Banku and Tilapia', 'Bofrot', 'Fufu with Lightsoup', 'Jollof Rice', 'Kenkey with Fried Fish', 'Okro soup']  # update if different
